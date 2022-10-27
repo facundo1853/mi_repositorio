@@ -1,0 +1,223 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: pink;
+}
+
+nav {
+    background-image: linear-gradient(to bottom, rgb(188, 88, 238), rgb(68, 2, 68));
+    border-style: solid;
+    border-width: 1%;
+    border-color: black;
+    border-radius: 10px;
+    display: grid;
+    justify-items: end;
+    width: auto;
+}
+
+.nav-container {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.menu {
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a img {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: stretch;
+    
+    
+    
+}
+
+nav ul li {
+    list-style: none;
+    border-style: solid;
+    border-color: violet;
+    background-color: rgb(77, 10, 107);
+    border-radius: 5%;
+    padding: 10%;
+    
+    
+}
+
+.logo {
+    margin: 15px auto;
+    padding: 0;
+   justify-content: start;
+}
+
+.navbar {
+    margin: 15px auto;
+    padding: 0;
+}
+
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: small;
+    
+
+}
+
+main {
+    background-color: pink;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 0px;
+    
+}
+
+
+main div {
+    background-image: linear-gradient(to bottom, rgb(202, 139, 177), pink);
+    border-style: solid;
+    border-color: black;
+    border-width: 1%;
+    border-radius: 5px;
+    padding: 1%;
+    margin: 0.2%;
+    height: 400px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-content: stretch;
+    
+    
+    
+   
+}
+
+
+main div h1 {
+    border: solid black 3px;
+    border-radius: 6px;
+    background-color: darkorchid;
+    padding: 0.5%;
+    margin: 1%;
+  
+
+    
+}
+
+main div h2 {
+    border-style: solid;
+    border-radius: 6px;
+    background-image: linear-gradient(to bottom, rgb(188, 88, 238), rgb(68, 2, 68));
+    padding: 0.5%;
+    margin: 1%;
+    display: inline-block;
+    height: 30px;
+    transition: height 1s;
+}
+
+main div h2:hover {
+    height: 50px;
+    border-style: ridge;
+    border-color: rgb(165, 60, 135);
+    border-width: 5px;
+}
+
+
+main div p {
+    background-image: linear-gradient(to right, rgb(153, 95, 105), rgb(238, 35, 238));
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid black 3px;
+    border-radius: 5px;
+    padding: 1%;
+    margin: 1%;
+    transition: width height 2s;
+}
+
+main div p:hover{
+    width: 90px;
+    height: 40px;
+    border: 5px lightsalmon double;
+}
+
+main div img {
+    border-style: solid;
+    border-color: darkmagenta;
+    border-width: 5px;
+    border-radius: 10px;
+    margin: 1%;
+    transition: border 2s;
+    
+}
+
+main div img:hover{
+    border: 7px lightsalmon dotted;
+}
+
+
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    border: solid black 4px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, rgb(188, 88, 238), rgb(68, 2, 68));
+    width: auto;
+}
+
+footer div {
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    background-color: pink;
+    padding: 1%;
+    margin: 1%;
+    align-self: end;
+}
+
+footer h5 {
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    background-color: pink;
+    padding: 5%;
+    margin: 1%;
+    align-self: end;
+}
+
+.TITULO {
+    align-self: center;
+    justify-self: center;
+}
+
+.PARRAFO {
+    align-self: center;
+    justify-self: center;
+}
+
+.imagen {
+    align-self: center;
+    justify-self: center;
+   
+}
